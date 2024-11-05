@@ -1,0 +1,319 @@
+2024-09-13 04:21:57,733 DEBUG cd Airplane_Mode && python3 -m venv env
+2024-09-13 04:22:00,262 DEBUG cd Airplane_Mode && /home/yuga/Airplane_Mode/env/bin/python -m pip install --quiet --upgrade pip
+2024-09-13 04:22:03,169 DEBUG cd Airplane_Mode && /home/yuga/Airplane_Mode/env/bin/python -m pip install --quiet wheel
+2024-09-13 04:22:04,608 LOG Getting frappe
+2024-09-13 04:22:04,608 DEBUG cd Airplane_Mode/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2024-09-13 04:22:17,281 LOG Installing frappe
+2024-09-13 04:22:17,282 DEBUG cd /home/yuga/Airplane_Mode && /home/yuga/Airplane_Mode/env/bin/python -m pip install --quiet --upgrade -e /home/yuga/Airplane_Mode/apps/frappe 
+2024-09-13 04:24:00,539 DEBUG cd /home/yuga/Airplane_Mode/apps/frappe && yarn install --check-files
+2024-09-13 04:24:45,432 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-13 04:24:45,433 DEBUG cd Airplane_Mode && bench build
+2024-09-13 04:24:45,547 INFO /usr/local/bin/bench build
+2024-09-13 04:25:04,185 LOG setting up backups
+2024-09-13 04:25:04,198 LOG backups were set up
+2024-09-13 04:25:04,198 INFO Bench Airplane_Mode initialized
+2024-09-13 04:25:58,078 INFO /usr/local/bin/bench start
+2024-09-13 04:25:58,342 INFO /usr/local/bin/bench serve --port 8000
+2024-09-13 04:25:58,363 INFO /usr/local/bin/bench watch
+2024-09-13 04:25:58,399 INFO /usr/local/bin/bench worker
+2024-09-13 04:25:58,412 INFO /usr/local/bin/bench schedule
+2024-09-13 04:28:12,103 INFO /usr/local/bin/bench new-app airplane_mode
+2024-09-13 04:28:12,107 LOG creating new app airplane_mode
+2024-09-13 04:29:25,935 LOG Installing airplane_mode
+2024-09-13 04:29:25,937 DEBUG cd /home/yuga/Airplane_Mode && /home/yuga/Airplane_Mode/env/bin/python -m pip install --quiet --upgrade -e /home/yuga/Airplane_Mode/apps/airplane_mode 
+2024-09-13 04:29:27,894 DEBUG bench build --app airplane_mode
+2024-09-13 04:29:28,000 INFO /usr/local/bin/bench build --app airplane_mode
+2024-09-13 04:29:29,247 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-13 04:31:21,027 INFO /usr/local/bin/bench new-site airplane_mode
+2024-09-13 04:31:56,007 INFO /usr/local/bin/bench new-site airplane_mode.com
+2024-09-13 04:32:36,372 INFO /usr/local/bin/bench new-site airplane_mode.com
+2024-09-13 04:32:50,730 INFO /usr/local/bin/bench new-site airplane_mode.com
+2024-09-13 04:34:42,994 INFO /usr/local/bin/bench --site airplane_mode.com add-to-hosts
+2024-09-13 04:35:40,238 INFO /usr/local/bin/bench --site demo.com install-app airplane_mode
+2024-09-13 04:36:29,044 INFO /usr/local/bin/bench --site demo.com install-app airplane_mode.com
+2024-09-13 04:37:04,091 INFO /usr/local/bin/bench --site airplane_mode install-app airplane_mode.com
+2024-09-13 04:37:47,498 INFO /usr/local/bin/bench --site airplane_mode install-app airplane_mode.com
+2024-09-13 04:48:56,719 INFO /usr/local/bin/bench --site airplane_mode install-app airplane_mode.com
+2024-09-13 04:58:30,369 INFO /usr/local/bin/bench --site airplane_mode.com install-app airplane_mode
+2024-09-13 05:01:42,412 INFO /usr/local/bin/bench --site airplane_mode.com install-app airplane_mode
+2024-09-13 05:02:03,938 INFO /usr/local/bin/bench start
+2024-09-13 05:02:04,243 INFO /usr/local/bin/bench watch
+2024-09-13 05:02:04,243 INFO /usr/local/bin/bench serve --port 8000
+2024-09-13 05:02:04,279 INFO /usr/local/bin/bench worker
+2024-09-13 05:02:04,293 INFO /usr/local/bin/bench schedule
+2024-09-13 05:14:56,046 INFO /usr/local/bin/bench get-app https://github.com/frappe/print_designer
+2024-09-13 05:14:56,056 LOG Getting print_designer
+2024-09-13 05:14:56,056 DEBUG cd ./apps && git clone https://github.com/frappe/print_designer  --depth 1 --origin upstream
+2024-09-13 05:14:59,611 LOG Installing print_designer
+2024-09-13 05:14:59,611 DEBUG cd /home/yuga/Airplane_Mode && /home/yuga/Airplane_Mode/env/bin/python -m pip install --quiet --upgrade -e /home/yuga/Airplane_Mode/apps/print_designer 
+2024-09-13 05:15:03,476 DEBUG cd /home/yuga/Airplane_Mode/apps/print_designer && yarn install --check-files
+2024-09-13 05:15:27,778 DEBUG bench build --app print_designer
+2024-09-13 05:15:27,926 INFO /usr/local/bin/bench build --app print_designer
+2024-09-13 05:15:30,760 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-13 05:15:55,592 INFO /usr/local/bin/bench start
+2024-09-13 05:15:55,879 INFO /usr/local/bin/bench schedule
+2024-09-13 05:15:55,891 INFO /usr/local/bin/bench worker
+2024-09-13 05:15:55,927 INFO /usr/local/bin/bench serve --port 8000
+2024-09-13 05:15:55,941 INFO /usr/local/bin/bench watch
+2024-09-13 05:18:53,676 INFO /usr/local/bin/bench --site airplane_mode.com install-app print_designer
+2024-09-13 05:20:03,729 INFO /usr/local/bin/bench --site airplane_mode.com install-app airplane_mode
+2024-09-13 06:14:44,597 INFO /usr/local/bin/bench set-config -g developer_mode1
+2024-09-13 06:16:25,978 INFO /usr/local/bin/bench set-config -g developer_mode1
+2024-09-13 06:16:45,110 INFO /usr/local/bin/bench start
+2024-09-13 06:16:46,386 INFO /usr/local/bin/bench schedule
+2024-09-13 06:16:46,396 INFO /usr/local/bin/bench watch
+2024-09-13 06:16:46,492 INFO /usr/local/bin/bench serve --port 8000
+2024-09-13 06:16:46,513 INFO /usr/local/bin/bench worker
+2024-09-13 06:17:39,922 INFO /usr/local/bin/bench set-config -g developer_mode 1
+2024-09-13 06:19:22,539 INFO /usr/local/bin/bench --site airplane_mode.com install-app airplane_mode
+2024-09-13 06:22:03,884 INFO /usr/local/bin/bench drop-site airplane_mode
+2024-09-13 06:22:28,522 INFO /usr/local/bin/bench drop-site airplane_mode --force
+2024-09-13 06:23:40,294 INFO /usr/local/bin/bench --site airplane_mode.com install-app airplane_mode
+2024-09-13 06:23:56,410 INFO /usr/local/bin/bench --site airplane_mode.com uninstall-app airplane_mode
+2024-09-13 06:24:22,309 INFO /usr/local/bin/bench --site airplane_mode.com install-app airplane_mode
+2024-09-13 06:24:38,407 INFO /usr/local/bin/bench start
+2024-09-14 04:37:12,806 INFO /usr/local/bin/bench start
+2024-09-14 04:37:13,325 INFO /usr/local/bin/bench watch
+2024-09-14 04:37:13,336 INFO /usr/local/bin/bench schedule
+2024-09-14 04:37:13,349 INFO /usr/local/bin/bench worker
+2024-09-14 04:37:13,352 INFO /usr/local/bin/bench serve --port 8000
+2024-09-14 05:29:32,348 INFO /usr/local/bin/bench mariadb
+2024-09-14 05:29:59,772 INFO /usr/local/bin/bench --site airplane_mode.com mariadb
+2024-09-14 05:31:14,444 INFO /usr/local/bin/bench --site airplane_mode.com mariadb
+2024-09-14 05:32:17,207 INFO /usr/local/bin/bench --site airplane_mode.com mariadb
+2024-09-14 05:35:53,895 INFO /usr/local/bin/bench --site airplane_mode.com mariadb
+2024-09-14 05:37:27,825 INFO /usr/local/bin/bench migrate
+2024-09-14 05:37:47,320 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-09-14 05:37:56,254 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-09-14 05:38:09,239 INFO /usr/local/bin/bench --site airplane_mode.com mariadb
+2024-09-14 05:39:04,800 INFO /usr/local/bin/bench --site airplane_mode.com mariadb
+2024-09-14 06:00:01,538 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-15 18:08:22,761 INFO /usr/local/bin/bench start
+2024-09-15 18:08:23,288 INFO /usr/local/bin/bench worker
+2024-09-15 18:08:23,296 INFO /usr/local/bin/bench serve --port 8000
+2024-09-15 18:08:23,310 INFO /usr/local/bin/bench watch
+2024-09-15 18:08:23,344 INFO /usr/local/bin/bench schedule
+2024-09-17 04:51:38,358 INFO /usr/local/bin/bench start
+2024-09-17 04:51:39,473 INFO /usr/local/bin/bench schedule
+2024-09-17 04:51:39,473 INFO /usr/local/bin/bench worker
+2024-09-17 04:51:39,649 INFO /usr/local/bin/bench serve --port 8000
+2024-09-17 04:51:39,684 INFO /usr/local/bin/bench watch
+2024-09-17 05:00:41,444 INFO /usr/local/bin/bench start
+2024-09-17 05:00:42,000 INFO /usr/local/bin/bench worker
+2024-09-17 05:00:42,003 INFO /usr/local/bin/bench watch
+2024-09-17 05:00:42,006 INFO /usr/local/bin/bench schedule
+2024-09-17 05:00:42,012 INFO /usr/local/bin/bench serve --port 8000
+2024-09-17 06:00:01,743 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-17 12:00:01,213 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-19 00:00:01,624 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-19 02:26:07,227 INFO /usr/local/bin/bench --site airplane_mode.com mariadb
+2024-09-20 06:00:01,844 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-20 06:31:21,358 INFO /usr/local/bin/bench start
+2024-09-20 06:31:21,635 INFO /usr/local/bin/bench serve --port 8000
+2024-09-20 06:31:21,638 INFO /usr/local/bin/bench watch
+2024-09-20 06:31:21,641 INFO /usr/local/bin/bench schedule
+2024-09-20 06:31:21,680 INFO /usr/local/bin/bench worker
+2024-09-20 06:48:44,693 INFO /usr/local/bin/bench start
+2024-09-20 06:48:45,026 INFO /usr/local/bin/bench serve --port 8000
+2024-09-20 06:48:45,031 INFO /usr/local/bin/bench worker
+2024-09-20 06:48:45,069 INFO /usr/local/bin/bench watch
+2024-09-20 06:48:45,085 INFO /usr/local/bin/bench schedule
+2024-09-20 11:45:05,499 INFO /usr/local/bin/bench start
+2024-09-20 11:45:05,938 INFO /usr/local/bin/bench schedule
+2024-09-20 11:45:05,961 INFO /usr/local/bin/bench serve --port 8000
+2024-09-20 11:45:06,005 INFO /usr/local/bin/bench worker
+2024-09-20 11:45:06,026 INFO /usr/local/bin/bench watch
+2024-09-21 06:55:39,766 INFO /usr/local/bin/bench --site airplane_mode.com migarate
+2024-09-21 06:55:51,768 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-09-21 06:57:10,333 INFO /usr/local/bin/bench buider
+2024-09-21 06:57:21,929 INFO /usr/local/bin/bench build
+2024-09-21 07:05:29,038 INFO /usr/local/bin/bench export-fixtures
+2024-09-21 07:05:53,084 INFO /usr/local/bin/bench --site airplane_mode export-fixtures
+2024-09-21 07:06:05,218 INFO /usr/local/bin/bench --site airplane_mode.com export-fixtures
+2024-09-21 07:07:20,990 INFO /usr/local/bin/bench clear-cache
+2024-09-21 07:07:21,422 INFO /usr/local/bin/bench build
+2024-09-21 07:07:40,584 INFO /usr/local/bin/bench restart
+2024-09-21 07:07:40,596 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-21 07:10:38,796 INFO /usr/local/bin/bench start
+2024-09-21 07:11:05,495 INFO /usr/local/bin/bench start
+2024-09-21 07:12:33,769 INFO /usr/local/bin/bench start
+2024-09-21 12:00:01,783 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-22 01:03:55,282 INFO /usr/local/bin/bench start
+2024-09-22 01:04:41,638 INFO /usr/local/bin/bench start
+2024-09-22 01:11:13,702 INFO /usr/local/bin/bench start
+2024-09-22 01:15:58,089 INFO /usr/local/bin/bench start
+2024-09-22 01:18:10,456 INFO /usr/local/bin/bench start
+2024-09-22 01:20:11,978 INFO /usr/local/bin/bench start
+2024-09-22 01:20:12,796 INFO /usr/local/bin/bench serve --port 8000
+2024-09-22 01:20:12,814 INFO /usr/local/bin/bench schedule
+2024-09-22 01:20:12,822 INFO /usr/local/bin/bench watch
+2024-09-22 01:20:12,860 INFO /usr/local/bin/bench worker
+2024-09-22 19:21:32,856 INFO /usr/local/bin/bench start
+2024-09-22 19:21:33,229 INFO /usr/local/bin/bench serve --port 8000
+2024-09-22 19:21:33,252 INFO /usr/local/bin/bench worker
+2024-09-22 19:21:33,258 INFO /usr/local/bin/bench watch
+2024-09-22 19:21:33,261 INFO /usr/local/bin/bench schedule
+2024-09-23 13:36:12,309 INFO /usr/local/bin/bench build
+2024-09-23 13:39:03,502 INFO /usr/local/bin/bench use airplane_mode.com
+2024-09-23 19:23:19,763 INFO /usr/local/bin/bench start
+2024-09-23 19:23:20,162 INFO /usr/local/bin/bench serve --port 8000
+2024-09-23 19:23:20,171 INFO /usr/local/bin/bench schedule
+2024-09-23 19:23:20,199 INFO /usr/local/bin/bench worker
+2024-09-23 19:23:20,208 INFO /usr/local/bin/bench watch
+2024-09-24 03:49:18,169 INFO /usr/local/bin/bench start
+2024-09-24 03:49:18,475 INFO /usr/local/bin/bench worker
+2024-09-24 03:49:18,491 INFO /usr/local/bin/bench schedule
+2024-09-24 03:49:18,536 INFO /usr/local/bin/bench serve --port 8000
+2024-09-24 03:49:18,537 INFO /usr/local/bin/bench watch
+2024-09-24 06:00:01,175 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-25 06:00:01,667 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-25 17:16:03,020 INFO /usr/local/bin/bench start
+2024-09-25 17:16:03,526 INFO /usr/local/bin/bench schedule
+2024-09-25 17:16:03,536 INFO /usr/local/bin/bench serve --port 8000
+2024-09-25 17:16:03,589 INFO /usr/local/bin/bench watch
+2024-09-25 17:16:03,613 INFO /usr/local/bin/bench worker
+2024-09-26 03:15:07,440 INFO /usr/local/bin/bench get-app builder
+2024-09-26 03:15:08,294 LOG Getting builder
+2024-09-26 03:15:08,295 DEBUG cd ./apps && git clone https://github.com/frappe/builder.git  --depth 1 --origin upstream
+2024-09-26 03:15:10,068 LOG Installing builder
+2024-09-26 03:15:10,068 DEBUG cd /home/yuga/Airplane_Mode && /home/yuga/Airplane_Mode/env/bin/python -m pip install --quiet --upgrade -e /home/yuga/Airplane_Mode/apps/builder 
+2024-09-26 03:15:13,288 DEBUG cd /home/yuga/Airplane_Mode/apps/builder && yarn install --check-files
+2024-09-26 03:15:22,929 DEBUG bench build --app builder
+2024-09-26 03:15:23,037 INFO /usr/local/bin/bench build --app builder
+2024-09-26 03:15:37,948 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-26 03:24:51,979 INFO /usr/local/bin/bench --site airplane_mode.com install-app builder
+2024-09-26 03:25:09,674 INFO /usr/local/bin/bench start
+2024-09-26 03:25:10,036 INFO /usr/local/bin/bench watch
+2024-09-26 03:25:10,066 INFO /usr/local/bin/bench serve --port 8000
+2024-09-26 03:25:10,066 INFO /usr/local/bin/bench worker
+2024-09-26 03:25:10,075 INFO /usr/local/bin/bench schedule
+2024-09-26 06:00:02,102 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-26 18:00:01,510 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-26 19:44:04,145 INFO /usr/local/bin/bench start
+2024-09-26 19:44:04,696 INFO /usr/local/bin/bench schedule
+2024-09-26 19:44:04,704 INFO /usr/local/bin/bench watch
+2024-09-26 19:44:04,704 INFO /usr/local/bin/bench serve --port 8000
+2024-09-26 19:44:04,728 INFO /usr/local/bin/bench worker
+2024-09-27 11:51:18,927 INFO /usr/local/bin/bench console
+2024-09-27 12:00:01,481 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-27 12:02:03,401 INFO /usr/local/bin/bench console
+2024-09-27 12:08:04,697 INFO /usr/local/bin/bench start
+2024-09-27 12:08:05,942 INFO /usr/local/bin/bench watch
+2024-09-27 12:08:06,018 INFO /usr/local/bin/bench schedule
+2024-09-27 12:08:06,023 INFO /usr/local/bin/bench serve --port 8000
+2024-09-27 12:08:06,041 INFO /usr/local/bin/bench worker
+2024-09-27 12:48:26,654 INFO /usr/local/bin/bench start
+2024-09-27 12:48:44,289 INFO /usr/local/bin/bench start
+2024-09-27 12:49:20,962 INFO /usr/local/bin/bench start
+2024-09-27 13:01:57,295 INFO /usr/local/bin/bench start
+2024-09-27 13:06:01,211 INFO /usr/local/bin/bench start
+2024-09-27 13:06:01,619 INFO /usr/local/bin/bench serve --port 8000
+2024-09-27 13:06:01,630 INFO /usr/local/bin/bench schedule
+2024-09-27 13:06:01,638 INFO /usr/local/bin/bench worker
+2024-09-27 13:06:01,645 INFO /usr/local/bin/bench watch
+2024-09-29 00:00:01,948 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-30 12:00:01,834 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-01 00:00:01,567 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-03 15:54:43,955 INFO /usr/local/bin/bench start
+2024-10-03 15:54:44,351 INFO /usr/local/bin/bench watch
+2024-10-03 15:54:44,355 INFO /usr/local/bin/bench worker
+2024-10-03 15:54:44,357 INFO /usr/local/bin/bench serve --port 8000
+2024-10-03 15:54:44,366 INFO /usr/local/bin/bench schedule
+2024-10-04 06:00:02,252 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-05 15:42:23,547 INFO /usr/local/bin/bench start
+2024-10-05 15:42:23,885 INFO /usr/local/bin/bench watch
+2024-10-05 15:42:23,889 INFO /usr/local/bin/bench worker
+2024-10-05 15:42:23,895 INFO /usr/local/bin/bench serve --port 8000
+2024-10-05 15:42:23,917 INFO /usr/local/bin/bench schedule
+2024-10-06 00:00:02,037 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-07 00:00:01,560 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-07 00:35:48,580 INFO /usr/local/bin/bench start
+2024-10-07 00:35:48,983 INFO /usr/local/bin/bench serve --port 8000
+2024-10-07 00:35:48,984 INFO /usr/local/bin/bench worker
+2024-10-07 00:35:48,990 INFO /usr/local/bin/bench schedule
+2024-10-07 00:35:48,994 INFO /usr/local/bin/bench watch
+2024-10-07 18:00:01,855 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-08 00:00:01,643 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-09 00:00:02,190 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-09 01:47:11,098 INFO /usr/local/bin/bench start
+2024-10-09 01:47:12,384 INFO /usr/local/bin/bench worker
+2024-10-09 01:47:12,399 INFO /usr/local/bin/bench watch
+2024-10-09 01:47:12,401 INFO /usr/local/bin/bench schedule
+2024-10-09 01:47:12,424 INFO /usr/local/bin/bench serve --port 8000
+2024-10-10 00:00:02,070 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-12 00:00:01,696 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-17 23:12:50,618 INFO /usr/local/bin/bench start
+2024-10-17 23:12:51,048 INFO /usr/local/bin/bench watch
+2024-10-17 23:12:51,054 INFO /usr/local/bin/bench schedule
+2024-10-17 23:12:51,099 INFO /usr/local/bin/bench serve --port 8000
+2024-10-17 23:12:51,109 INFO /usr/local/bin/bench worker
+2024-10-19 00:00:01,959 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-24 22:38:58,568 INFO /usr/local/bin/bench start
+2024-10-24 22:38:59,078 INFO /usr/local/bin/bench serve --port 8000
+2024-10-24 22:38:59,088 INFO /usr/local/bin/bench schedule
+2024-10-24 22:38:59,132 INFO /usr/local/bin/bench worker
+2024-10-24 22:38:59,137 INFO /usr/local/bin/bench watch
+2024-10-25 00:00:02,091 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-25 11:50:33,812 INFO /usr/local/bin/bench --version
+2024-10-25 12:00:02,285 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-26 00:00:01,828 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-26 00:32:47,289 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-10-26 00:57:35,740 INFO /usr/local/bin/bench start
+2024-10-26 00:58:12,704 INFO /usr/local/bin/bench start
+2024-10-26 01:01:06,865 INFO /usr/local/bin/bench start
+2024-10-26 01:01:07,784 INFO /usr/local/bin/bench watch
+2024-10-26 01:01:07,812 INFO /usr/local/bin/bench serve --port 8000
+2024-10-26 01:01:07,859 INFO /usr/local/bin/bench schedule
+2024-10-26 01:01:07,885 INFO /usr/local/bin/bench worker
+2024-10-26 01:08:09,682 INFO /usr/local/bin/bench --site airport_mode.com migrate
+2024-10-26 01:08:29,575 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-10-26 01:09:57,372 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-10-26 01:13:02,296 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-10-26 01:16:57,062 INFO /usr/local/bin/bench clear-cache
+2024-10-26 01:16:58,272 INFO /usr/local/bin/bench migrate
+2024-10-26 01:18:04,170 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-10-26 01:22:24,702 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-10-26 01:22:53,373 INFO /usr/local/bin/bench --site airplane_mode.com migrate
+2024-10-27 02:48:23,169 INFO /usr/local/bin/bench udate
+2024-10-27 02:48:36,981 INFO /usr/local/bin/bench update
+2024-10-27 02:48:40,144 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2024-10-27 02:48:51,303 WARNING /usr/local/bin/bench update executed with exit code 1
+2024-10-29 00:00:02,746 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-29 11:12:33,177 INFO /usr/local/bin/bench start
+2024-10-29 11:12:33,651 INFO /usr/local/bin/bench serve --port 8000
+2024-10-29 11:12:33,671 INFO /usr/local/bin/bench schedule
+2024-10-29 11:12:33,678 INFO /usr/local/bin/bench worker
+2024-10-29 11:12:33,678 INFO /usr/local/bin/bench watch
+2024-10-29 12:00:01,590 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-30 00:00:01,468 INFO /usr/local/bin/bench --verbose --site all backup
+2024-10-31 00:00:02,161 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-01 00:00:01,824 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-02 23:46:21,291 INFO /usr/local/bin/bench start
+2024-11-02 23:46:21,831 INFO /usr/local/bin/bench serve --port 8000
+2024-11-02 23:46:21,843 INFO /usr/local/bin/bench watch
+2024-11-02 23:46:21,846 INFO /usr/local/bin/bench worker
+2024-11-02 23:46:21,873 INFO /usr/local/bin/bench schedule
+2024-11-03 00:00:02,022 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-03 22:21:52,623 INFO /usr/local/bin/bench start
+2024-11-03 22:21:53,189 INFO /usr/local/bin/bench serve --port 8000
+2024-11-03 22:21:53,194 INFO /usr/local/bin/bench watch
+2024-11-03 22:21:53,199 INFO /usr/local/bin/bench worker
+2024-11-03 22:21:53,214 INFO /usr/local/bin/bench schedule
+2024-11-05 00:00:01,370 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-05 23:36:43,639 INFO /usr/local/bin/bench start
+2024-11-05 23:36:44,027 INFO /usr/local/bin/bench schedule
+2024-11-05 23:36:44,030 INFO /usr/local/bin/bench watch
+2024-11-05 23:36:44,042 INFO /usr/local/bin/bench worker
+2024-11-05 23:36:44,054 INFO /usr/local/bin/bench serve --port 8000
+2024-11-06 00:00:01,658 INFO /usr/local/bin/bench --verbose --site all backup
+2024-11-06 01:33:58,412 INFO /usr/local/bin/bench start
+2024-11-06 01:33:58,753 INFO /usr/local/bin/bench serve --port 8000
+2024-11-06 01:33:58,753 INFO /usr/local/bin/bench schedule
+2024-11-06 01:33:58,755 INFO /usr/local/bin/bench watch
+2024-11-06 01:33:58,804 INFO /usr/local/bin/bench worker

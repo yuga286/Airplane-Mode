@@ -1,0 +1,204 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240914_060001-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-14 06:00:02.499023
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240914_060001-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240914_060001-airplane_mode_com-database.sql.gz 231.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240917_060002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-17 06:00:02.706356
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240917_060002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240917_060002-airplane_mode_com-database.sql.gz 267.4KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240917_120001-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-17 12:00:01.739601
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240917_120001-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240917_120001-airplane_mode_com-database.sql.gz 270.8KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240919_000001-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-19 00:00:02.255624
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240919_000001-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240919_000001-airplane_mode_com-database.sql.gz 272.0KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240920_060003-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-20 06:00:05.575033
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240920_060003-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240920_060003-airplane_mode_com-database.sql.gz 279.2KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240921_120002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-21 12:00:02.549096
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240921_120002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240921_120002-airplane_mode_com-database.sql.gz 284.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240924_060001-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-24 06:00:01.778418
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240924_060001-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240924_060001-airplane_mode_com-database.sql.gz 298.7KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240925_060002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-25 06:00:03.310609
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240925_060002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240925_060002-airplane_mode_com-database.sql.gz 301.4KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240926_060002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-26 06:00:03.197560
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240926_060002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240926_060002-airplane_mode_com-database.sql.gz 322.1KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240926_180002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-26 18:00:02.455240
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240926_180002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240926_180002-airplane_mode_com-database.sql.gz 322.1KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240927_120003-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-27 12:00:04.711256
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240927_120003-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240927_120003-airplane_mode_com-database.sql.gz 325.6KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240929_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-29 00:00:02.955793
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240929_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240929_000002-airplane_mode_com-database.sql.gz 348.4KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20240930_120002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-09-30 12:00:02.549704
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240930_120002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20240930_120002-airplane_mode_com-database.sql.gz 353.1KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241001_000001-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-01 00:00:02.235480
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241001_000001-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241001_000001-airplane_mode_com-database.sql.gz 354.9KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241004_060004-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-04 06:00:06.670205
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241004_060004-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241004_060004-airplane_mode_com-database.sql.gz 354.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241006_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-06 00:00:02.820911
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241006_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241006_000002-airplane_mode_com-database.sql.gz 350.9KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241007_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-07 00:00:02.691781
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241007_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241007_000002-airplane_mode_com-database.sql.gz 352.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241007_180002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-07 18:00:03.043616
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241007_180002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241007_180002-airplane_mode_com-database.sql.gz 351.0KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241008_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-08 00:00:02.653575
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241008_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241008_000002-airplane_mode_com-database.sql.gz 351.0KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241009_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-09 00:00:03.361409
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241009_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241009_000002-airplane_mode_com-database.sql.gz 351.0KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241010_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-10 00:00:03.216360
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241010_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241010_000002-airplane_mode_com-database.sql.gz 341.0KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241012_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-12 00:00:03.200296
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241012_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241012_000002-airplane_mode_com-database.sql.gz 341.0KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241019_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-19 00:00:03.240188
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241019_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241019_000002-airplane_mode_com-database.sql.gz 329.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241025_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-25 00:00:02.800443
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241025_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241025_000002-airplane_mode_com-database.sql.gz 336.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241025_120002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-25 12:00:03.326552
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241025_120002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241025_120002-airplane_mode_com-database.sql.gz 340.8KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241026_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-26 00:00:02.649413
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241026_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241026_000002-airplane_mode_com-database.sql.gz 345.5KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241029_000004-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-29 00:00:07.015357
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241029_000004-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241029_000004-airplane_mode_com-database.sql.gz 377.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241029_120002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-29 12:00:02.740748
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241029_120002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241029_120002-airplane_mode_com-database.sql.gz 377.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241030_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-30 00:00:03.438434
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241030_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241030_000002-airplane_mode_com-database.sql.gz 377.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241031_000003-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-10-31 00:00:03.709427
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241031_000003-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241031_000003-airplane_mode_com-database.sql.gz 377.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241101_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-11-01 00:00:03.037142
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241101_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241101_000002-airplane_mode_com-database.sql.gz 377.3KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241103_000002-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-11-03 00:00:03.445454
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241103_000002-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241103_000002-airplane_mode_com-database.sql.gz 377.4KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241105_000001-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-11-05 00:00:02.461600
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241105_000001-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241105_000001-airplane_mode_com-database.sql.gz 382.7KiB
+Backup for Site airplane_mode.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a5ddaf003f5ae338 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a5ddaf003f5ae338 | /usr/bin/gzip >> ./airplane_mode.com/private/backups/20241106_000001-airplane_mode_com-database.sql.gz
+
+Backup Summary for airplane_mode.com at 2024-11-06 00:00:02.528766
+Config  : /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241106_000001-airplane_mode_com-site_config_backup.json 127.0B
+Database: /home/yuga/Airplane_Mode/sites/airplane_mode.com/private/backups/20241106_000001-airplane_mode_com-database.sql.gz 384.5KiB
+Backup for Site airplane_mode.com has been successfully completed
